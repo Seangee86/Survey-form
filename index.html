@@ -9,14 +9,20 @@
     <h1 id="title">Super Powers Survey</h1>
     <p id="description">What super power is best</p>
     <form id="survey form">
-        Name
+        <label id="name-label"> Name </label>
         <input type="name" id="name" placeholder="Enter your name" required>
         <br><br>
-        Email
+        <label id="email-label">Email</label>
         <input type="email" id="email" placeholder="Enter your Email" required> 
         <br><br>
-        Age
-        <input type="number" id="number" placeholder="Enter your age" min="18" max="110" required>
+        <label id="number-label">Age (optional)</label>
+        <input type="number" id="number" placeholder="Age" min="18" max="110" required>
+        <br><br>
+       <select>
+           <option value="invisable">Invisable</option>
+           <option value="telaport">Telaport</option>
+       </select>
+        <br><br>
         <input type="submit">
     </form>
 
