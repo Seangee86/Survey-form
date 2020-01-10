@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html>
    
-<head>
-    <Title>Survey Form</Title>
-
-</head>
+ <head>
+     <Title>Survey Form</Title>
+ </head>
 
 <body>
     <h1 id="title">Super Powers Survey</h1>
     <p id="description">What super power is best</p>
     <form id="survey form">
         Name
-        <input type="name" id="name" placeholder="Enter your name">
+        <input type="name" id="name" placeholder="Enter your name" required>
         <br><br>
         Email
-        <input type="email" id="email" placeholder="Enter your Email">
+        <input type="email" id="email" placeholder="Enter your Email" required> 
         <br><br>
         Age
-        <input type="age" id="number" placeholder="Enter your age">
+        <input type="number" id="number" placeholder="Enter your age" min="18" max="110" required>
         <input type="submit">
     </form>
 
