@@ -5,6 +5,10 @@
 
 body {
     background-color: rgb(231, 229, 227);
+    position: relative;
+    left: 100px;
+    top: 150px;
+    
   
 }
 
